@@ -9,11 +9,14 @@
 
 ### Installation
 
-> git clone https://github.com/fatualux/scriptLauncher && cd scriptLauncher
-> chmod +x install.sh
-> ./install.sh
-
+```
+git clone https://github.com/fatualux/scriptLauncher && cd scriptLauncher
+chmod +x install.sh
+./install.sh
+```
 
 ### Usage
 
-> docker run -v $(pwd):/scriptLauncher/ -it scriptlauncher
+```
+docker run -v $(pwd):/scriptLauncher/ -it scriptlauncher
+```
