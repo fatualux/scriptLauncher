@@ -12,7 +12,7 @@
 * docker
 
 ### Installation
-
+* Linux (bash/sh/zsh)
 ```
 git clone https://github.com/fatualux/scriptLauncher && cd scriptLauncher
 chmod +x install.sh

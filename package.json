@@ -1,0 +1,13 @@
+{
+  "name": "scriptLauncher",
+  "version": "1.0.0",
+  "description": "These are bash scripts that can be used to easily interact with: translate-shell, yt-dlp, ffmpeg, w3m.",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  },
+  "author": "fatualux <35587292+fatualux@users.noreply.github.com>",
+  "scripts": {
+    "run": "docker build -t scriptlauncher ./ && docker run -v $(pwd):/scriptLauncher/ -it scriptlauncher",
+    "run-on-win": "docker build -t scriptlauncher ./ && docker run -v \"%cd%\":/scriptLauncher/ -it scriptlauncher"
+  }
+}
