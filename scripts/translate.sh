@@ -18,9 +18,9 @@ ListLanguages() {
   echo "7. Chinese"
   echo "8. Japanese"
   echo "9. Hindi"
+  echo "Enter your selection: "
   # Read the user's input and save it in a variable
-  read -p "Enter your selection: " choice
-
+  read -r choice
   # Use the case statement to perform different actions based on the user's input
   case "$choice" in
     1)

@@ -15,8 +15,9 @@ ListActions() {
 
   # Read the user's input and save it in a variable
   echo ""
-  read -p "Select an option:" choice
-  case "$choice" in
+  echo "Select an action:"
+  read -r "name"
+  case "$name" in
     1)
       echo "You chose to translate a piece of text."
       SCRIPT="scripts/translate.sh"

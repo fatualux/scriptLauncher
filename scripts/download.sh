@@ -12,7 +12,7 @@ ListActions() {
   echo "2. Extract the audio from a video"
   echo "3. Download a video playlist"
   echo "4. Download an audio playlist"
-  read -p "Enter your selection: " choice
+  read -r choice
   case $choice in
     1)
       echo "You selected Download a video"
