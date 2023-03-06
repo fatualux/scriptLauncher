@@ -6,6 +6,10 @@
 * ffmpeg
 * w3m
 
+### Dependencies
+
+* bash
+* docker
 
 ### Installation
 
